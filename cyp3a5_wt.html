@@ -61,10 +61,10 @@ href="https://cdn.jsdelivr.net/npm/molstar/build/viewer/molstar.css" />
 
 molstar.Viewer.create('viewer', {
     layoutIsExpanded: true,
-    layoutShowControls: true,
-    layoutShowSequence: true,
+    layoutShowControls: false,
+    layoutShowSequence: false,
     layoutShowLog: false,
-    layoutShowLeftPanel: true
+    layoutShowLeftPanel: false
 }).then(viewer => {
 
     viewer.loadStructureFromUrl(
